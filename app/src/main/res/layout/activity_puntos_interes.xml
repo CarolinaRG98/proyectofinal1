@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PuntosInteresActivity">
+
+    <ImageView
+        android:id="@+id/imageViewBackgroundPuntos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/background2" />
+
+    <TextView
+        android:id="@+id/textViewPuntosTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:layout_marginBottom="29dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Puntos de Interés en la ciudad y alrededores"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textViewPuntosParrafo"
+        app:layout_constraintStart_toStartOf="@+id/imageViewBackgroundPuntos"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textViewPuntosParrafo"
+        android:layout_width="337dp"
+        android:layout_height="567dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="16dp"
+        android:text="CATEDRAL DE CHILLAN. La catedral de Chillán es un templo de la iglesia católica, sede de la Diócesis de Chillán ubicada en el centro de la ciudad de Chillán frente a la Plaza de armas de Chillán, en la esquina de calles Arauco y Libertad. Es también símbolo e icono de la localidad, esto a raíz del progreso que ha tenido la urbe, tras el terremoto de Chillán de 1939. Fue declarada Monumento Nacional, por decreto N° 145, de 29 de abril de 2015, del Ministerio de Educación. NEVADOS DE CHILLÁN. Es un complejo volcánico chileno compuesto por dieciocho volcanes12 ubicados en la Cordillera de Los Andes de la Región de Ñuble, cual limita las provincias de Diguillín y Punilla. Está rodeado por diversos valles pequeños cuales conforman ríos que desembocan en otros de mayor tamaño, es el caso del río Renegado que alimenta las aguas del río Chillán y los ríos Gato y Las Minas que desembocan en el río Ñuble. Además, está rodeado por pequeños pueblos como Las Trancas, Los Lleuques, Recinto, Carrizales, Coironal y el valle de Shangri-La, los centros de esquí Nevados de Chillán y Termas de Chillán y las reservas nacionales Los Huemules Del Niblinto y Ñuble. MUSEO INTERACTIVO CLAUDIO ARRAU LEÓN. El Museo Interactivo Claudio Arrau León (abreviado Mical), es un museo ubicado en la ciudad de Chillán, cual expone las obras de la carrera artística y la vida del pianista local, Claudio Arrau. El edificio es considerado Inmueble de conservación histórica, dado a que el terreno en que se ubica. Antiguamente fue la residencia del artista en la ciudad. En sus interiores conserva obras y bienes pertenecientes a Arrau, donados por sus descendientes. MUSEO DE CIENCIAS NATURALES Y ARQUEOLOGÍA PROF. PEDRO RÁMIREZ FUENTES. El MCN de Chillán, cuenta con colecciones de Entomología, Arqueología, Paleontología, Malacología, Mineralogía y otras. MALL ARAUCO CHILLÁN. Este corporativo de centros comerciales cuenta con diversos servicios y entretenciones para brindar a los usuarios. Entre sus dependencias se pueden encontrar tiendas y servicios tales como: Cine, patio de comidas, estacionamientos, baños, tiendas comerciales como Falabella, Paris, entre otras.  ESTADIO BICENTENARIO MUNICIPAL NELSON OYARZÚN. El Estadio Bicentenario Municipal Nelson Oyarzún se encuentra en Chillán, Chile. Su equipo titular es Ñublense de la Primera división de Chile. Es el principal estadio de la Región de Ñuble, tras ser remodelado en 2008 para ser sede de la Copa Mundial Femenina de Fútbol Sub-20 de 2008, pese a que sus inicios se remontan a mediados de los años 1930. PLAZA DE ARMAS DE CHILLÁN. La Plaza de Armas de Chillán o Plaza de la Independencia, es un área verde ubicada en la ciudad chilena de Chillán, ubicada exactamente en el centro del sector de Las Cuatro Avenidas, este sitio es el punto exacto de la cuarta y última fundación de la ciudad. "
+        android:textAlignment="viewStart"
+        android:textColor="#F8F5F5"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPuntosTitulo" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="35dp"
+        android:backgroundTint="#4F27378F"
+        android:onClick="ButtonVolver2"
+        android:text="Volver al menu de inicio"
+        app:iconTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPuntosParrafo" />
+</androidx.constraintlayout.widget.ConstraintLayout>

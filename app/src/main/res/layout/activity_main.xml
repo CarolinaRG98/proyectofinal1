@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageViewBackground"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/background1" />
+
+    <ImageButton
+        android:id="@+id/imageButtonGaleria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ButtonGaleria"
+        app:layout_constraintBottom_toTopOf="@+id/imageButtonMapa"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonMapa"
+        app:srcCompat="@drawable/buttongaleria"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButtonHistoria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ButtonHistoria"
+        app:layout_constraintBottom_toTopOf="@+id/imageButtonPuntos"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonPuntos"
+        app:srcCompat="@drawable/buttonhistoria"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButtonMapa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="ButtonMapa"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonSensor"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/buttonmapa"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButtonPuntos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="ButtonPuntos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/buttonpuntos"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/buttonSensor"
+        android:layout_width="0dp"
+        android:layout_height="132dp"
+        android:layout_marginEnd="154dp"
+        android:backgroundTint="#00F3DEDE"
+        android:onClick="ButtonSensores"
+        android:text="Sensor GPS y SOS"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageButtonMapa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButtonMapa"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonMapa" />
+</androidx.constraintlayout.widget.ConstraintLayout>

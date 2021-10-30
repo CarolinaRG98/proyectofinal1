@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HistoriaCiudadActivity">
+
+    <ImageView
+        android:id="@+id/imageViewBackgroundHistoria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageViewBackgroundHistoria2"
+        app:layout_constraintTop_toTopOf="@+id/imageViewBackgroundHistoria2"
+        app:srcCompat="@drawable/background2" />
+
+    <ImageView
+        android:id="@+id/imageViewBackgroundHistoria2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="21dp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewHistoriaTitulo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/imageviewhistoria1" />
+
+    <TextView
+        android:id="@+id/textViewHistoriaTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="sans-serif-black"
+        android:text="HISTORIA DE CHILLAN"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textViewHistoriaParrafo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewBackgroundHistoria2" />
+
+    <TextView
+        android:id="@+id/textViewHistoriaParrafo"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="19dp"
+        android:text="La Historia de Chillán, se remonta en el siglo XVI entre las cuencas de los ríos Ñuble y Chillán, correspondiente a las actuales comunas de Chillán y Chillán Viejo, fue la décima ciudad en ser construida en el país.1​ Actualmente es capital de la Región de Ñuble en Chile y en dicha área se conforma la Conurbación Chillán."
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/ButtonVolverHistoria"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewHistoriaTitulo" />
+
+    <Button
+        android:id="@+id/ButtonVolverHistoria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:backgroundTint="#343F51B5"
+        android:onClick="ButtonVolver"
+        android:text="Volver al inicio"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewHistoriaParrafo" />
+</androidx.constraintlayout.widget.ConstraintLayout>
