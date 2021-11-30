@@ -2,12 +2,10 @@ package cl.carolina.proyectofinal;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.provider.ContactsContract;
 import android.view.View;
-import android.widget.ImageButton;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -36,9 +34,16 @@ public class MainActivity extends AppCompatActivity {
         Intent buttongaleria = new Intent(this, GaleriaActivity.class);
         startActivity(buttongaleria);
     }
-    //Metodo para programar boton Sensores y SOS//
+    //Metodo para programar boton Sensores//
     public void ButtonSensores (View view){
         Intent buttonsensores = new Intent(this, SensorMainActivity.class);
         startActivity(buttonsensores);
     }
+
+    //Metodo para programar boton servicios//
+    public void Buttonservicios(View view){
+        Intent buttonservicios = new Intent(this, Serv.class);
+        startActivity(buttonservicios);
+    }
+
 }

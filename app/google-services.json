@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "420640476536",
+    "firebase_url": "https://proyectofinalcr-default-rtdb.firebaseio.com",
+    "project_id": "proyectofinalcr",
+    "storage_bucket": "proyectofinalcr.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420640476536:android:530280a13e0a631bb4cc8d",
+        "android_client_info": {
+          "package_name": "cl.carolina.proyectofinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "420640476536-li0ln7umqhab73t3hbn75qapgoj29hq9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBn3CokL39K6--z5pzeN8RjTG-Y-7oSSzM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "420640476536-li0ln7umqhab73t3hbn75qapgoj29hq9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

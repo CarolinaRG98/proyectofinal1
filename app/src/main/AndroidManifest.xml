@@ -16,6 +16,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Proyectofinal">
         <activity
+            android:name=".Serv"
+            android:exported="false" />
+        <activity
+            android:name=".ListaServicios"
+            android:exported="false" />
+        <activity
+            android:name=".EditServiciosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".listaservicios"
+            android:exported="false" />
+        <activity
+            android:name=".editservicios"
+            android:exported="false" />
+        <activity
+            android:name=".serviciossos"
+            android:exported="false" />
+        <activity
             android:name=".SensorMainActivity"
             android:exported="false" />
         <activity

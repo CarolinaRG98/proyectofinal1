@@ -3,8 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Andrea/AndroidStudioProjects/proyectofinal/app/src/main/res/layout/activity_edit_servicios.xml" value="0.190625" />
+        <entry key="..\:/Users/Andrea/AndroidStudioProjects/proyectofinal/app/src/main/res/layout/activity_editservicios.xml" value="0.190625" />
         <entry key="..\:/Users/Andrea/AndroidStudioProjects/proyectofinal/app/src/main/res/layout/activity_galeria.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Andrea/AndroidStudioProjects/proyectofinal/app/src/main/res/layout/activity_historia_ciudad.xml" value="0.4742468415937804" />
+        <entry key="..\:/Users/Andrea/AndroidStudioProjects/proyectofinal/app/src/main/res/layout/activity_lista_servicios.xml" value="0.190625" />
         <entry key="..\:/Users/Andrea/AndroidStudioProjects/proyectofinal/app/src/main/res/layout/activity_main.xml" value="0.4" />
         <entry key="..\:/Users/Andrea/AndroidStudioProjects/proyectofinal/app/src/main/res/layout/activity_main1.xml" value="0.17037037037037037" />
         <entry key="..\:/Users/Andrea/AndroidStudioProjects/proyectofinal/app/src/main/res/layout/activity_main_sensores.xml" value="0.1" />
@@ -15,6 +18,19 @@
         <entry key="..\:/Users/Andrea/AndroidStudioProjects/proyectofinal/app/src/main/res/layout/activity_sensor.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Andrea/AndroidStudioProjects/proyectofinal/app/src/main/res/layout/activity_sensor_main.xml" value="0.4" />
         <entry key="..\:/Users/Andrea/AndroidStudioProjects/proyectofinal/app/src/main/res/layout/activity_sensores.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Andrea/AndroidStudioProjects/proyectofinal/app/src/main/res/layout/activity_servicios.xml" value="0.1" />
+        <entry key="..\:/Users/Andrea/AndroidStudioProjects/proyectofinal/app/src/main/res/layout/content_agregar_servicios.xml" value="0.190625" />
+        <entry key="..\:/Users/Andrea/AndroidStudioProjects/proyectofinal/app/src/main/res/layout/fragment_second.xml" value="0.190625" />
+        <entry key="..\:/Users/Andrea/AndroidStudioProjects/proyectofinalAAAAAAAAAAAA/app/src/main/res/layout/activity_edit_servicios.xml" value="0.190625" />
+        <entry key="..\:/Users/Andrea/AndroidStudioProjects/proyectofinalAAAAAAAAAAAA/app/src/main/res/layout/activity_lista_servicios.xml" value="0.190625" />
+        <entry key="..\:/Users/Andrea/AndroidStudioProjects/proyectofinalAAAAAAAAAAAA/app/src/main/res/layout/activity_main.xml" value="0.190625" />
+        <entry key="..\:/Users/Andrea/AndroidStudioProjects/proyectofinalAAAAAAAAAAAA/app/src/main/res/layout/activity_maps.xml" value="0.190625" />
+        <entry key="..\:/Users/Andrea/AndroidStudioProjects/proyectofinalAAAAAAAAAAAA/app/src/main/res/layout/activity_puntos_interes.xml" value="0.190625" />
+        <entry key="..\:/Users/Andrea/AndroidStudioProjects/proyectofinalAAAAAAAAAAAA/app/src/main/res/layout/activity_sensores.xml" value="0.190625" />
+        <entry key="..\:/Users/Andrea/AndroidStudioProjects/proyectofinalAAAAAAAAAAAA/app/src/main/res/layout/activity_serv.xml" value="0.190625" />
+        <entry key="..\:/Users/Andrea/AndroidStudioProjects/proyectofinalAAAAAAAAAAAA/app/src/main/res/layout/activity_servicios.xml" value="0.190625" />
+        <entry key="..\:/Users/insel/AndroidStudioProjects/proyectofinal/app/src/main/res/layout/activity_galeria.xml" value="0.22301912568306012" />
+        <entry key="..\:/Users/insel/AndroidStudioProjects/proyectofinal/app/src/main/res/layout/activity_main.xml" value="0.22301912568306012" />
       </map>
     </option>
   </component>

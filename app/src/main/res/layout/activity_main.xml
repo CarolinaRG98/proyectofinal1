@@ -10,21 +10,20 @@
         android:id="@+id/imageViewBackground"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/background1" />
 
     <ImageButton
         android:id="@+id/imageButtonGaleria"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="18dp"
         android:onClick="ButtonGaleria"
         app:layout_constraintBottom_toTopOf="@+id/imageButtonMapa"
-        app:layout_constraintStart_toStartOf="@+id/imageButtonMapa"
+        app:layout_constraintEnd_toStartOf="@+id/buttonServiciosSos"
+        app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/buttongaleria"
         tools:ignore="SpeakableTextPresentCheck" />
 
@@ -32,9 +31,11 @@
         android:id="@+id/imageButtonHistoria"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
         android:onClick="ButtonHistoria"
         app:layout_constraintBottom_toTopOf="@+id/imageButtonPuntos"
-        app:layout_constraintStart_toStartOf="@+id/imageButtonPuntos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buttonServiciosSos"
         app:srcCompat="@drawable/buttonhistoria"
         tools:ignore="SpeakableTextPresentCheck" />
 
@@ -61,21 +62,41 @@
         android:onClick="ButtonPuntos"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buttonSensor"
         app:srcCompat="@drawable/buttonpuntos"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <Button
         android:id="@+id/buttonSensor"
         android:layout_width="0dp"
-        android:layout_height="132dp"
-        android:layout_marginEnd="154dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="17dp"
         android:backgroundTint="#00F3DEDE"
         android:onClick="ButtonSensores"
-        android:text="Sensor GPS y SOS"
+        android:text="Sensor GPS "
         android:textAlignment="center"
         android:textSize="12sp"
-        app:layout_constraintBottom_toTopOf="@+id/imageButtonMapa"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageButtonPuntos"
         app:layout_constraintStart_toEndOf="@+id/imageButtonMapa"
         app:layout_constraintTop_toTopOf="@+id/imageButtonMapa" />
+
+    <Button
+        android:id="@+id/buttonServiciosSos"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#00F3DEDE"
+        android:onClick="Buttonservicios"
+        android:text="Servicios SOS"
+        android:textSize="11sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButtonHistoria"
+        app:layout_constraintEnd_toStartOf="@+id/imageButtonHistoria"
+        app:layout_constraintStart_toEndOf="@+id/imageButtonGaleria"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonHistoria" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
